@@ -8,6 +8,9 @@ contract SpaceDoggos {
     uint planetCodeDigits = 7;
     uint systemCodeDigits = 7;
 
+    uint planetCodeModulus = 10 ** planetCodeDigits;
+    uint systemCodeModulus = 10 ** systemCodeDigits;
+
     // Write your solution below
 
 
