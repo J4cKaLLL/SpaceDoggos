@@ -34,9 +34,11 @@ contract SpaceDoggos {
             coordY: 0
         });
 
-        // Write your code below
-
-
-
+        doggos[msg.sender] = myDoggo;
     }
+
+    // Write your function below
+
+
+
 }
