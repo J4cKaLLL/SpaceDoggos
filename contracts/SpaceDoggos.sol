@@ -12,19 +12,21 @@ contract SpaceDoggos {
     uint systemCodeModulus = 10 ** systemCodeDigits;
 
     struct Doggo {
-    string name;
-    uint8 breed;
-    uint8 color;
-    uint8 face;
-    uint8 costume;
-    uint coordX;
-    uint coordY;
+        string name;
+        uint8 breed;
+        uint8 color;
+        uint8 face;
+        uint8 costume;
+        uint coordX;
+        uint coordY;
     }
 
     mapping(address => Doggo) doggos;
 
-    // Write your function below
+    function createDoggo(string _name, uint8 _breed, uint8 _color, uint8 _face, uint8 _costume) {
+        // Create your struct below
 
 
 
+    }
 }
