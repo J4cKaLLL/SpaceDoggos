@@ -38,7 +38,9 @@ contract SpaceDoggos {
     }
 
     // Write your function below
-
+  function getSystemMap (uint _coordX, uint _coordY) returns (uint){
+    return uint(keccak256(_coordX, _coordY));
+  }
 
 
 }
